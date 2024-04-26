@@ -12,6 +12,7 @@
     "coverage": "vitest --coverage --run",
     "test": "vitest",
     "build": "tsc && vite build",
+    "build-and-test": "npm run build && npm run test"
     "preview": "vite preview"
   },
   "keywords": [
