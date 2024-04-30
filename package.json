@@ -10,8 +10,9 @@
     "test:all": "vitest",
     "test:accessibility": "vitest accessibility --run",
     "coverage": "vitest --coverage --run",
-    "test": "echo \"Navigate into an example and run the tests from there!\" && exit 1",
+    "test": "vitest",
     "build": "tsc && vite build",
+    "build-and-test": "npm run build && npm run test",
     "preview": "vite preview"
   },
   "keywords": [
